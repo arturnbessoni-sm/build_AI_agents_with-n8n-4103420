@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Quotation – Tech Innovate 2026</title>
+<title>Quotation – Shedmate</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
   :root {
@@ -48,8 +48,8 @@
     <!-- Header -->
     <header>
       <div>
-        <div class="brand">Tech Innovate 2026</div>
-        <div class="muted">San Francisco Convention Center • June 15–17, 2026</div>
+        <div class="brand">Shedmate</div>
+        <div class="muted">Double your Shed Sales Profitably without new hires or franchising strings</div>
       </div>
       <div class="meta">
         <div><span class="label">Quote #</span> {{quote_id}}</div>
@@ -91,11 +91,11 @@
           <!-- Booth -->
           <tr>
             <td>
-              <strong>{{type}} Booth</strong><br/>
-              <span class="pill">Booth</span>
+              <strong>{{planName}} Plan</strong><br/>
+              <span class="pill">Plan</span>
             </td>
             <td class="right">
-              {{size_sqft}} sqft × ${{price_per_sqft}}/sqft
+              {{subtotal}}
             </td>
             <td class="right">{{subtotal}}</td>
           </tr>
@@ -122,9 +122,8 @@
     <div class="card">
       <div class="label">Notes & Terms</div>
       <p class="note">
-        Prices in USD. Payment due per invoice terms. Cancellation per conference policy:
-        full refund by May 15, 2026; 50% refund by June 1, 2026; no refunds after June 1, 2026.
-        For accessibility requests, contact accessibility@techinnovate2026.com by June 1, 2026.
+        Prices in AUD. Payment due per invoice terms. Cancellation per SAAS Agreement policy:
+        no refunds after 21 days.
       </p>
       <p class="note">
         Questions? Contact sales at {{org_email}} or {{org_phone}}.
@@ -132,7 +131,7 @@
     </div>
 
     <div class="muted" style="text-align:center; margin-top:16px;">
-      © 2026 Tech Innovate • techinnovate2026.com
+      © 2026 Shedmate Pty Ltd • www.shedmate.com.au
     </div>
   </div>
 </body>
